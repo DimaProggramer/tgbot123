@@ -1,0 +1,7 @@
+{
+  "soft": {
+    "1": {"name": "100", "description": "100 megabayt", "price_rub": 100, "link": "https://t.me/"},
+    "2": {"name": "500", "description": "500 megabayt", "price_rub": 200, "link": "https://t.me/"},
+    "3": {"name": "10", "description": "10 megabayt", "price_rub": 10, "link": "https://t.me/"}
+  }
+}
