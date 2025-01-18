@@ -5,7 +5,7 @@ import json
 import asyncio
 
 CRYPTO_TOKEN = ""
-crypto_client = AioCryptoPay(CRYPTO_TOKEN, network=Networks.TEST_NET)
+crypto_client = AioCryptoPay(CRYPTO_TOKEN, network=Networks.MAIN_NET)
 
 def get_conversion_rate(fsym, tsym='RUB'):
     url = f'https://min-api.cryptocompare.com/data/price?fsym={fsym}&tsyms={tsym}'
